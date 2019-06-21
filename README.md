@@ -46,7 +46,10 @@ This also allows for the 'cold storage' of InstaPy settings, meaning a frozen Di
 
 
 ## Flowchart
-![Flowchart](./images/ProxyChromeFlowChart.png)
+
+Running InstapyScaled is extremely simple, it only takes 1 argument, the row of the excel sheet that contains the account you want to start. This means that not only is it easy for humans to start multiple accounts quickly, it would be just as simple to write a bash script that starts InstaPy for your core accounts whenever your server/workstation is rebooted.
+
+![Flowchart](./images/flowchart.png)
 
 ## Excel Variables
 #### Daily Target - Integer
@@ -106,6 +109,7 @@ The 'Unfollow Start Time' variable allows users to set when the program begins i
 
 #### **Make sure to Download [Compatible](http://chromedriver.chromium.org/downloads/version-selection) Versions of Chrome Driver and Chrome**
 
+talk about customizing methods and uses and like follow unfollow 
 
 ## 💾 Setup
 #### Clone Repository
