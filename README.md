@@ -35,14 +35,14 @@ InstaPy is an amazing tool that allows people to grow their Instagram accounts o
 
 With multiple instances running at once and it can be hard to modify code in between launches, test optimal configurations, and save successful settings in case of server crash or power outage.
 
-![problem](http://g.recordit.co/SAklhO5mDT.gif)
+![problem](./images/problem.gif)
 
 ## Solution
 InstaPyScaled is a python program that uses InstaPy's methods and functions to create a scalable Instagram growth manager. Instead of taking commands directly from the terminal, this InstaPy script pulls information from a Microsoft Excel worksheet. Meaning that all your accounts' data is recorded and stored in one place, making a shift in strategies, start times, or analysis of effectiveness extremely simple.
 
 This also allows for the 'cold storage' of InstaPy settings, meaning a frozen Digital Ocean server, or a power outage won't completely derail the growth of your Instagram Accounts.
 
-![](https://imgur.com/gbdh6sx.gif)
+![solution](./images/solution.gif)
 
 
 ## Flowchart
