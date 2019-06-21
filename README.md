@@ -42,7 +42,7 @@ InstaPyScaled is a python program that uses InstaPy's methods and functions to c
 
 This also allows for the 'cold storage' of InstaPy settings, meaning a frozen Digital Ocean server, or a power outage won't completely derail the growth of your Instagram Accounts.
 
-
+![](./images/solution.gif)
 ![](http://g.recordit.co/tMJeuALX4m.gif)
 
 
