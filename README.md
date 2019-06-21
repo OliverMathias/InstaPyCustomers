@@ -42,7 +42,9 @@ InstaPyScaled is a python program that uses InstaPy's methods and functions to c
 
 This also allows for the 'cold storage' of InstaPy settings, meaning a frozen Digital Ocean server, or a power outage won't completely derail the growth of your Instagram Accounts.
 
+
 ![](http://g.recordit.co/tMJeuALX4m.gif)
+
 
 ## Flowchart
 ![Flowchart](./images/ProxyChromeFlowChart.png)
@@ -58,14 +60,14 @@ Also, to improve the follower outcome of this program, the 'Starting Daily Targe
 **Note**, there is currently no support from InstaPy for dynamic tallying of valid accounts processed. That is, when an account in the list is analyzed and skipped, for example, because settings specify NO BUSINESS ACCOUNTS, the number of accounts processed counting towards the 'Starting Daily Target' is still incremented.
 
 #### Target Accounts - String
-![](./images/targetaccount.jpg)
+![](./images/targetaccount.JPG)
 
 The 3 'Target Account' columns allow the user to specify which accounts the InstaPy follow method should interact with. More specifically, the methods interact with these account's **followers**. In more detail, the code takes the 'Starting Daily Target' variable, floor-divides it by 3 and interacts with that number of followers of each 'Target Account'.
 
 The exact actions taken by the program will be covered in the [Strategy](#strategy---string) section.
 
 #### Skip Business Accounts - Boolean
-![](./images/skipbiz.jpg)
+![](./images/skipbiz.JPG)
 
 The 'Skip Business Accounts' variable is a boolean value that tells the program whether to skip accounts identified as Instagram business accounts.
 
@@ -79,14 +81,14 @@ The 'Skip Business Accounts' variable is a boolean value that tells the program 
 * ##### Follow
 
 #### Follow Start Time - String
-![](./images/followtime.jpg)
+![](./images/followtime.JPG)
 
 The 'Follow Start Time' variable allows users to set when the program begins its follow and like routine for the 'Follow' and 'Full' strategies. It is very important for account interaction to set the start time early enough that the users will open the Instagram follow/like notification, but not too early that they will still be sleeping.
 
 **Note**, make sure to take into account when the program will finish interacting with the 'Starting Daily Target' amount. Each 100 users added to the 'Starting Daily Target' variable takes ~1 hr to finish interacting with. Also, all times are in military time.
 
 #### Unfollow Start Time - String
-![](./images/unfollowtime.jpg)
+![](./images/unfollowtime.JPG)
 
 The 'Unfollow Start Time' variable allows users to set when the program begins its unfollow routine for all strategies. It is very important for follower preservation to set the start time late enough that the users will **NOT** open Instagram to see that you have unfollowed.
 
