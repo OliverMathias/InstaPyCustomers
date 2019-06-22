@@ -19,7 +19,7 @@ from instapy import smart_run
 #------------------------------
 
 # Setting up and Accessing the workbook
-wb = load_workbook(filename = 'Customers.xlsx')
+wb = load_workbook(filename = 'Accounts.xlsx')
 sheet_ranges = wb['Sheet1']
 
 # Initializing Variables
@@ -357,7 +357,7 @@ if __name__ == "__main__":
         schedule.every().day.at(unfollow_time).do(unfollowSession,'The Unfollow Script is Starting!').tag('unfollow')
         print()
         print("---------------------------------------------")
-        print("Waiting Til: ",unfollow_time)
+        print("Waiting Til: ", unfollow_time)
         print("---------------------------------------------")
         print()
         while daysToLoop > 0:

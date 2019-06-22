@@ -1,0 +1,12 @@
+schedule
+glob3
+openpyxl
+InstaPy
+
+
+
+fix proxy pip3 and python3 commands and test
+
+test scaled fully
+
+make all flowcharts and text for strategies
