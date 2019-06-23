@@ -55,7 +55,7 @@ Running InstapyScaled is extremely simple, it only takes 1 argument, the row of 
 ## Excel Variables
 
 #### Insta Name & Password - String
-![](./images/namepassword.PNG)
+![](./images/namepassword.png)
 
 The InstaPyScaled script pulls your account login information from these 2 columns, A & B. The 'Insta Name' and 'Insta Password' variables are fed directly into the Scaled.py program and used to log into Instagram with.
 
@@ -84,7 +84,7 @@ The 3 'Target Account' columns allow the user to specify which accounts the Inst
 The exact actions taken by the program will be covered in the [Strategy](#strategy---string) section.
 
 #### Days to Follow/Unfollow - Integer
-![](./images/days.PNG)
+![](./images/days.png)
 
 This integer value is vital to the functioning of InstapyScaled and the default strategies themselves. It controls the number of days that each strategy runs.
 
@@ -153,7 +153,7 @@ The 'Full' strategy uses the other Excel settings to follow and like user's acco
 **Note**, feel free to customize any of these strategies to best suit your needs or create completely new ones!
 
 #### Follow Start Time - String
-![](./images/followtime.PNG)
+![](./images/followtime.png)
 
 The 'Follow Start Time' variable allows users to set when the program begins its follow and like routine for the 'Follow' and 'Full' strategies. It is very important for account interaction to set the start time early enough that the users will open the Instagram follow/like notification, but not too early that they will still be sleeping.
 
@@ -172,7 +172,7 @@ The 'Unfollow Start Time' variable allows users to set when the program begins i
 
 #### Starting Followers/Followees - Integer
 
-![](./images/followers&followees.PNG)
+![](./images/followers&followees.png)
 
 This is another section that doesn't actually get read by the code, however, I have found it helpful as a means of tracking the growth of my accounts before and after the use of InstaPy.
 
@@ -231,7 +231,7 @@ Obviously this implementation of a mass InstaPy scaler is best suited to my pers
 If you need some ideas about how to customize this, I'd like to mention the value add possibility for A/B testing settings on the same account.
 
 #### A/B Tester
-![](./images/namepassword.PNG)
+![](./images/namepassword.png)
 
 InstaPyScaled offers a great way to A/B test multiple account settings in the same accounts to determine which combination of settings is the most efficient for that particular account.
 
