@@ -21,7 +21,7 @@ This implementation of [InstaPy](https://github.com/timgrossmann/InstaPy) by Tim
 * [Flowchart](#flowchart)
 * [Excel Variables](#excel-variables)
 * [Dependencies](#dependencies)
-* [Setup](#setup)
+* [Setup](#💾-setup)
   * [Clone Repository](#clone-repository)
   * [Install InstaPyScaled Dependencies](#install-InstapyScaled-dependencies)
   * [Overwrite ChromeDriver](#overwrite-chromedriver)
@@ -29,7 +29,7 @@ This implementation of [InstaPy](https://github.com/timgrossmann/InstaPy) by Tim
 * [Uses](#uses)
 * [Acknowledgments](#acknowledgments)
 * [InstaPy](#instapy)
-* [License](#license)
+* [License](#📜-license)
 
 ## Problem
 InstaPy is an amazing tool that allows people to grow their Instagram accounts orders of magnitude faster than normal. However, when trying to grow multiple accounts at once, a user's server or workstation can become incredibly crowded and disorganized.
@@ -230,8 +230,6 @@ $ python3 Scaled.py [Row Number]
 ```
 
 ## Uses
-
-also how you can run multiple settings of the same account on different lines
 
 Obviously this implementation of a mass InstaPy scaler is best suited to my personal needs, and it's specific methods & settings are open to customization and additions. Again, feel free to add, subtract or build anything to make this work better for you.
 
