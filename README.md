@@ -236,6 +236,11 @@ Make sure to copy your 'chromedriver' file into the InstaPyScaled folder so that
 
 ![](https://media.giphy.com/media/XE7SnQZWRMJCkPbJU9/giphy.gif)
 
+#### Overwrite ChromeDriver
+Also, because InstaPyScaled is an addition to InstaPy and interacts with it so heavily, make sure to copy the the 'chromedriver', 'Accounts.xlsx', and 'Scaled.py' files to the InstaPy folder, after installing dependencies, so that they can interact with the proper files and databases.
+
+![](https://media.giphy.com/media/LmH6Zd7ScXW7aq5YH2/giphy.gif)
+
 #### Run Scaled
 Finally, cd into the folder and run Scaled. The below command runs Scaled.py and selects the specific row which contains the account and settings information you want to pass InstaPy.
 
