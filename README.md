@@ -39,6 +39,7 @@ This implementation of [InstaPy](https://github.com/timgrossmann/InstaPy) by Tim
   * [Clone Repository](#clone-repository)
   * [Install InstaPyScaled Dependencies](#install-InstapyScaled-dependencies)
   * [Overwrite ChromeDriver](#overwrite-chromedriver)
+  * [Copy Files to InstaPy](#copy-files)
   * [Run Scaled.py](#run-scaled.py)
 * [Uses](#uses)
 * [Acknowledgments](#acknowledgments)
@@ -232,11 +233,11 @@ $ pip3 install [package name]
 ```
 
 #### Overwrite ChromeDriver
-Make sure to copy your 'chromedriver' file into the InstaPyScaled folder so that you have to correct chromedriver for your machine...
+Make sure to copy your 'chromedriver' file into the InstaPyScaled folder to overwrite the default 'chromedriver' file so that you have to correct chromedriver for your machine...
 
 ![](https://media.giphy.com/media/XE7SnQZWRMJCkPbJU9/giphy.gif)
 
-#### Overwrite ChromeDriver
+#### Copy Files to InstaPy
 Also, because InstaPyScaled is an addition to InstaPy and interacts with it so heavily, make sure to copy the the 'chromedriver', 'Accounts.xlsx', and 'Scaled.py' files to the InstaPy folder, after installing dependencies, so that they can interact with the proper files and databases.
 
 ![](https://media.giphy.com/media/LmH6Zd7ScXW7aq5YH2/giphy.gif)
@@ -247,6 +248,8 @@ Finally, cd into the folder and run Scaled. The below command runs Scaled.py and
 ```
 $ python3 Scaled.py [Row Number]
 ```
+
+Congrats! InstaPyScaled is now Installed :thumbsup:
 
 ## Uses
 
