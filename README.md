@@ -100,8 +100,10 @@ The 'Skip Business Accounts' variable is a boolean value that tells the program 
 
 The 'Strategy' variable of InstaPyScaled contains information that the program uses to determine what actions to take with InstaPy. Included, are the following 4 strategies that I have been using to grown and maintain Instagram accounts. The next section will be a description of each strategy.
 
-* ##### Full
-The 'Full' strategy uses the other Excel settings to follow and like user's accounts, then unfollow them based on a 'FIFO' model (First In First Out), which allows ample time for users to follow back your account.
+* #### Full
+  ![](./images/full.png)
+
+  The 'Full' strategy uses the other Excel settings to follow and like user's accounts, then unfollow them based on a 'FIFO' model (First In First Out), which allows ample time for users to follow back your account.
 
   More specifically, the 'Full' strategy follows the 'Starting Daily Target' number of followers of the accounts in the 'Target Accounts' variables starting at the 'Follow Start Time' variable. After following the target number that day, it waits until the next day and begins following the 'Starting Daily Target' amount + 30 at the 'Follow Start Time.'
 
@@ -110,16 +112,17 @@ The 'Full' strategy uses the other Excel settings to follow and like user's acco
   In this process it takes the
   'Starting Daily Target' number, divided by 2, and unfollows that amount of followers from the accounts InstaPyScaled has previously followed starting at the specified 'Unfollow Start Time'.
 
- After following the target number that day, it waits until the next day and begins unfollowing the 'Starting Daily Target' amount, divided by 2, plus 30 at the 'Unfollow Start Time.'
+  After following the target number that day, it waits until the next day and begins unfollowing the 'Starting Daily Target' amount, divided by 2, plus 30 at the 'Unfollow Start Time.'
 
- It continues this until it completes the number specified in the 'Days to Follow/Unfollow' variable.
+  It continues this until it completes the number specified in the 'Days to Follow/Unfollow' variable.
 
- **Why is the 'Starting Daily Target' divided by 2?** We have found that only about 50% of the 'Starting Daily Target' number of accounts are followed because of the hardcoded settings. Therefore, we recommend that the 'Starting Daily Target' variable is about double your actual target value.
+  **Why is the 'Starting Daily Target' divided by 2?** We have found that only about 50% of the 'Starting Daily Target' number of accounts are followed because of the hardcoded settings. Therefore, we recommend that the 'Starting Daily Target' variable is about double your actual target value.
 
- **Note**, the 'Starting Daily Target' variable having 50% interaction may be down to personal InstaPyScaled settings and individual testing and customization is encouraged.
+  **Note**, the 'Starting Daily Target' variable having 50% interaction may be down to personal InstaPyScaled settings and individual testing and customization is encouraged.
 
 
-* ##### Follow
+* #### Follow
+  ![](./images/follow.png)
 
   The 'Follow' strategy attempts to follow the 'Starting Daily Target' number of followers of the accounts in the 'Target Accounts' variables starting at the 'Follow Start Time' variable. After attempting to follow the target number that day, it waits until the next day and begins following the 'Starting Daily Target' amount plus 30 at the 'Follow Start Time.'
 
@@ -127,7 +130,9 @@ The 'Full' strategy uses the other Excel settings to follow and like user's acco
 
   **Attempting** is used, again because we have found throughout testing that only about 50% of accounts make it through the optimized, hardcoded settings.
 
-* ##### Unfollow
+* #### Unfollow
+  ![](./images/unfollow.png)
+
   The 'Unfollow' strategy takes the
   'Starting Daily Target' number, divided by 2, and unfollows that amount of followers from the accounts InstaPyScaled has previously followed starting at the specified 'Unfollow Start Time'.
 
@@ -139,7 +144,9 @@ The 'Full' strategy uses the other Excel settings to follow and like user's acco
 
   **Note**, make sure you have followed users through InstaPy before using this strategy so that it has users to unfollow.
 
-* ##### Unfollow All
+* #### Unfollow All
+  ![](./images/unfollowall.png)
+
   The 'Unfollow All' strategy takes the
   'Starting Daily Target' number, divided by 2, and unfollows that amount of followers from the accounts you are following starting at the 'Unfollow Start Time'.
 
@@ -148,9 +155,9 @@ The 'Full' strategy uses the other Excel settings to follow and like user's acco
   It continues this until it completes the number specified in the 'Days to Follow/Unfollow' variable.
 
   **Warning**, this strategy unfollows **EVERYONE**, it doesn't care who you are following, it will unfollow them to satisfy the
-'Starting Daily Target' number of accounts it was told to unfollow.
+  'Starting Daily Target' number of accounts it was told to unfollow.
 
-**Note**, feel free to customize any of these strategies to best suit your needs or create completely new ones!
+  **Note**, feel free to customize any of these strategies to best suit your needs or create completely new ones!
 
 #### Follow Start Time - String
 ![](./images/followtime.png)
