@@ -7,7 +7,7 @@ An Implementation of Tim Grossman's InstaPy That Simplifies Growth, and Tracking
     <a href="https://www.python.org/">
     	<img src="https://img.shields.io/badge/built%20with-Python3-red.svg" />
     </a>
-    <a href="https://www.python.org/">
+    <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
       <img src="https://img.shields.io/badge/License-GNU-green.svg" />
     </a>
 
